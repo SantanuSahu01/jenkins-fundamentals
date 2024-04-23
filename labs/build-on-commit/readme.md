@@ -49,3 +49,7 @@ git commit -m 'Checking automated build'
 git push gogs
 ```
 - check the Jenkins server, the build should have started for _hello-world_ job.
+
+## Cleanup
+- disable the checkbox _Build when a change is pushed to Gogs_ as it may come in the way of future labs/exercises.
+
