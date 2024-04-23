@@ -11,7 +11,7 @@ Let's setup Webhook configuration between Jenkins and Gogs.
 ## Install the Gogs plugin
 
 - open the Manage Jenkins Page http://localhost:8080/manage
-- click _Manage Plugins_ icon
+- click _Plugins_ icon
 - click on the _AVAILABLE_ tab
 - search for _Gogs_
 - select the _Gogs_ plugin for installation
