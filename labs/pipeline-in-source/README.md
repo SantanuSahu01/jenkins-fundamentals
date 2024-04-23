@@ -4,7 +4,7 @@
 
 ## Storing Pipelines in Source Code
 
-We'll use [this Jenkinsfile](./manual-gate/Jenkinsfile) for our next build. It has multiple stages but it should be fairly clear what it's doing. 
+We'll use [this Jenkinsfile](./pipeline-in-source/Jenkinsfile) for our next build. It has multiple stages but it should be fairly clear what it's doing. 
 
 To run the pipeline, first we'll push the `jenkins-fundamentals` repo to our local Git server so Jenkins can use it.
 
