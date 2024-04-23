@@ -57,5 +57,5 @@ Follow the steps to install the Pipeline stage view plugin:
 - In the _System Configuration_ section, click the _Plugins_ link
 - In the left panel, select the _Available plugins_ link and search for `stage view plugin`
 - Select the `Pipeline: Stage view plugin` and install `without restarting` jenkins.
-- Come back to the [`pipeline-job`](http://localhost:8080/job/pipeline-job/)
+- Come back to the [`pipeline-lab`](http://localhost:8080/job/pipeline-lab/)
 - You will start seeing the pipeline stages
