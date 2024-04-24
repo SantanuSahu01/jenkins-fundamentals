@@ -1,5 +1,7 @@
-package widgetario.products;
+package com.widgetario.controllers;
 
+import com.widgetario.models.Product;
+import com.widgetario.repositories.ProductRepository;
 import io.micrometer.core.annotation.Timed;
 import io.micrometer.core.instrument.MeterRegistry;
 
@@ -23,7 +25,7 @@ public class ProductsController {
     private static final Logger log = LoggerFactory.getLogger(ProductsController.class);
     
     @Autowired
-	ProductRepository repository;
+    ProductRepository repository;
 
     @Autowired
     MeterRegistry registry; 

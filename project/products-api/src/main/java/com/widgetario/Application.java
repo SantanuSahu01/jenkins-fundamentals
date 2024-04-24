@@ -1,5 +1,6 @@
-package widgetario.products;
+package com.widgetario;
 
+import com.widgetario.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Application {
    
     @Autowired
-	ProductRepository repository;
+    ProductRepository repository;
 
     @RequestMapping("/")
     public String home() {

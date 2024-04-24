@@ -1,7 +1,8 @@
-package widgetario.products;
+package com.widgetario.repositories;
 
 import java.util.List;
 
+import com.widgetario.models.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

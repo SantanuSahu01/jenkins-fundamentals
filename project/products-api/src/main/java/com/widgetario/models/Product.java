@@ -1,4 +1,4 @@
-package widgetario.products;
+package com.widgetario.models;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
