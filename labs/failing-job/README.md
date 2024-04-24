@@ -38,7 +38,7 @@ Add the _Command_
 - paste this into the _Command_ box:
 
 ```
-docker version
+docker --version
 
 javac -version
 
